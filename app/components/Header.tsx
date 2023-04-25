@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header aria-label="Site Header" className="bg-white sticky top-0">
-      <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-xl px-4  sm:px-3 lg:px-4">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
             <a className="block text-teal-600" href="/">
