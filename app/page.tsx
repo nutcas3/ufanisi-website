@@ -1,13 +1,15 @@
 "use client"
 
 import HeroBanner from "./components/HeroBanner"
+import About from "./components/About"
+import { SSRProvider } from "react-bootstrap";
 
-import { useEffect } from 'react'
 export default function Home() {
-  useEffect(() => {
-    import('bootstrap/dist/js/bootstrap');
-  }, []);
   return <>
+  <SSRProvider>
   <HeroBanner/>
+  <About/>
+
+  </SSRProvider>
   </>;
 }

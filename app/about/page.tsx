@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
+import { Container, Nav, NavItem, NavLink, Tab, Tabs } from 'react-bootstrap';
+import Image from 'react-bootstrap/Image';
 
 function About() {
   return (
