@@ -177,4 +177,8 @@
     
 })(jQuery);
 //diable cntrl key to the site
-document.getElementById("ctrl").setAttribute("disabled", true);
+document.addEventListener("keydown", function (event) {
+    if (event.ctrlKey) {
+        event.preventDefault();
+    }   
+});
