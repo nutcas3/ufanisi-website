@@ -176,4 +176,5 @@
     });
     
 })(jQuery);
-
+//diable cntrl key to the site
+document.getElementById("ctrl").setAttribute("disabled", true);
