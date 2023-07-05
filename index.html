@@ -17,15 +17,17 @@
 
     <!-- CSS Libraries -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+    <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       rel="stylesheet" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
       rel="stylesheet" />
     <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/flaticon@latest/css/flaticon.css" />
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
@@ -535,7 +537,7 @@
             <div class="donate-content">
               <div class="section-header">
                 <p>Donate Now</p>
-                <h2>Join us in making a difference today!</h2>
+                <h2 class="donate-heading">Join us in making a difference today!</h2>
               </div>
               <div class="donate-text">
                 <p>
@@ -547,38 +549,7 @@
           </div>
           <div class="col-lg-5">
             <div class="donate-forms">
-              <form
-                action="https://www.paypal.com/donate"
-                method="post"
-                target="_top">
-                <!-- Identify your business so that you can collect the payments. -->
-                <input
-                  type="hidden"
-                  name="business"
-                  value="donations@kcparkfriends.org" />
-                <!-- Specify details about the contribution -->
-                <input type="hidden" name="no_recurring" value="0" />
-                <input
-                  type="hidden"
-                  name="item_name"
-                  value="Friends of the Park" />
-                <input
-                  type="hidden"
-                  name="item_number"
-                  value="Fall Cleanup Campaign" />
-                <input type="hidden" name="currency_code" value="USD" />
-                <!-- Display the payment button. -->
-                <input
-                  type="image"
-                  name="submit"
-                  src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-                  alt="Donate" />
-                <img
-                  alt=""
-                  width="10px"
-                  height="10px"
-                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" />
-              </form>
+    <a class="btn btn-customone" href="./donate.html">Donate Now</a>
             </div>
           </div>
         </div>
@@ -587,7 +558,7 @@
     <!-- Donate End -->
 
     <!-- Event Start -->
-   <div class="event">
+    <div class="event">
       <div class="container">
         <div class="section-header text-center">
           <p>Some Events</p>
@@ -596,7 +567,7 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="event-item">
-              <img src="img/IMG-20230416-WA0035.jpg" alt="Image" loading="lazy"/>
+              <img src="img/IMG-20230416-WA0035.jpg" alt="Image" />
               <div class="event-content">
                 <div class="event-meta">
                   <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
@@ -606,7 +577,8 @@
                 <div class="event-text">
                   <h3>Graduations Ceremony</h3>
                   <p>
-                    This is was the event of graduation of the young disadvantaged kids who we are teaching at our center
+                    This is was the event of graduation of the young
+                    disadvantaged kids who we are teaching at our center
                   </p>
                 </div>
               </div>
@@ -614,7 +586,7 @@
           </div>
           <div class="col-lg-6">
             <div class="event-item">
-              <img src="img/IMG-20230416-WA0024.jpg" alt="Image" loading="lazy"/>
+              <img src="img/IMG-20230416-WA0020.jpg" alt="Image" />
               <div class="event-content">
                 <div class="event-meta">
                   <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
@@ -622,10 +594,11 @@
                   <p><i class="fa fa-map-marker-alt"></i>Korogocho</p>
                 </div>
                 <div class="event-text">
-                  <h3>Social Walk</h3>
+                  <h3>Sanitary give out</h3>
                   <p>
-                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur
-                    facili ornare velit non vulpte liqum metus tortor
+                    We provided free
+                    sanitary products and knowledge,as we strive to empower women
+                    and contribute to a more inclusive and equal society.
                   </p>
                 </div>
               </div>
@@ -633,7 +606,7 @@
           </div>
           <div class="col-lg-6">
             <div class="event-item">
-              <img src="img/IMG-20230416-WA0048.jpg" alt="Image" loading="lazy"/>
+              <img src="img/IMG-20230416-WA0048.jpg" alt="Image" />
               <div class="event-content">
                 <div class="event-meta">
                   <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
@@ -643,15 +616,17 @@
                 <div class="event-text">
                   <h3>Civic Education</h3>
                   <p>
-                   We had a talk with the local authority with the members to talk about our civic rights and how we can move about reporting issues.
+                    We had a talk with the local authority with the members to
+                    talk about our civic rights and how we can move about
+                    reporting issues.
                   </p>
-\                </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="event-item">
-              <img src="img/personal/DSC_0101.JPG" alt="Image" loading="lazy"/>
+              <img src="img/personal/DSC_0101.JPG" alt="Image" />
               <div class="event-content">
                 <div class="event-meta">
                   <p><i class="fa fa-calendar-alt"></i>01-Jan-45</p>
@@ -661,7 +636,13 @@
                 <div class="event-text">
                   <h3>Dandora Dump Site</h3>
                   <p>
-                    This was a waklk to go and check the dandora dump site and see how the residents are there.
+                    Ufanisi Centre through a Constitutional Petition No 43 of
+                    2019 made the Environment and Land Court (ELC) in July 2021
+                    to order the Nairobi Metropolitan Services (NMS) to relocate
+                    Dandora Dumpsite within six months. ELC advised NMS to
+                    establish a new environmental-friendly dumpsite within six
+                    months period. Further, the court ordered NMS to embark on
+                    rehabilitation of the dumpsite after shut down.
                   </p>
                 </div>
               </div>
@@ -709,7 +690,7 @@
       data-image-src="img/volunteer.jpg">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-8">
+          <div class="col-lg-7">
             <div class="volunteer-content">
               <div class="section-header">
                 <p>Become A Volunteer</p>
@@ -729,7 +710,7 @@
             <div class="volunteer-content">
               <div class="section-header">
                 <button
-                  class="btn btn-custom volunteer"
+                  class="btn btn-custom btn btn-customone"
                   href="https://forms.gle/Jh3DwYBdPEME3G327"
                   class="dropdown-item"
                   target="_blank"
@@ -744,7 +725,7 @@
     <!-- Volunteer End -->
 
     <!-- Testimonial Start -->
-    <div class="testimonial">
+    <!-- <div class="testimonial">
       <div class="container">
         <div class="section-header text-center">
           <p>Testimonial</p>
@@ -817,7 +798,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
     <!-- Contact Start -->
