@@ -33,6 +33,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+
   </head>
 
   <body oncontextmenu="return false;">
@@ -44,7 +45,7 @@
             <div class="top-bar-left">
               <div class="text">
                 <i class="fa fa-phone-alt"></i>
-                <p>+123 456 7890</p>
+                <p>+254 721 975596</p>
               </div>
               <div class="text">
                 <i class="fa fa-envelope"></i>
@@ -514,5 +515,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
   </body>
 </html>
